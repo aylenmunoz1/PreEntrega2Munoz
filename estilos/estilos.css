@@ -155,26 +155,22 @@ background-image: url(../Archivos/Imagenes/otrasimg/WhatsApp\ Image\ 2023-03-21\
     
 }
 
-form{
-    font-size: 20px;
-    margin: 0 auto;
-    width: 800px;
-    padding: 10px
-
+.needs-validation{
+    font-size: 25px;
+    text-align: center;
+    ;
 }
 
-form .formu{
-    border: solid 1px;
-    padding: 5px;
-
-}
 
 .volverIndex{
     font-size: 20px;
     text-decoration: none;
     font-weight: bold;
     color: #5E5E5E;
-    padding-left: 50%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
 }
 .contslide{
     width: 100%;
