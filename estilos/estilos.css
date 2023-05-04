@@ -7,38 +7,50 @@
 }
 
 body{
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #D2D4DA;
+    background-color: #000;
 }
 a{
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
 header{
     display: flex;
     min-height: 30px;
-    background-color: #8CD790;
+    background-color: #47A025;
     justify-content: space-between;
     align-items: center;
     padding: 1px;
 }
-.logo{
-    display: flex;
-    align-items: center;
 
+.ttheader{
+    text-align: center;
+    display: flex;
+    font-size: 60px;
+    color: #000;
+    font-weight: 800;
+    justify-content: center;
+}
+
+.logo{
+    display: inline;
+    align-items: center;
 }
 .logo img{
-    height: 100px;
+    height: 150px;
     margin-left: 10px;
+    
 }
-nav a{
-    font-weight: 600;
-    padding-right: 10px;
+
+.nav-link{
+    color: #000;
+    font-weight: 700;
+    font-size: 25px;
+    display: inline;
 }
+
+
 nav a:hover{
-    color: white;
+    color: #5E5E5E;
 }
 
     nav ul{
@@ -51,7 +63,7 @@ nav a:hover{
         text-align: center
     }
     nav li a{
-        color: black;
+        color: #fff;
         font-family: sans-serif;
         font-size: 24px;
         padding: 5px;
@@ -62,12 +74,22 @@ h1{
     text-align: center;
     font-size: 60px ;
     margin-top: 100px;
+    color: #fff;
+    margin-bottom: 80px;
+}
+
+h2{
+    text-align: center;
+    font-size: 60px ;
+    margin-top: 100px;
+    color: #fff;
+    margin-bottom: 80px;
 }
 
 .galeria{
     width: 100%;
     min-height: 500px;
-    background-color: #8CD790;
+    background-color: #47A025;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 200px);
@@ -139,13 +161,14 @@ background-image: url(../Archivos/Imagenes/otrasimg/WhatsApp\ Image\ 2023-03-21\
 
 
 .sobrenosotros p{
-    border: solid #8CD790;
-    background-color: #8CD790;
+    border: solid #47A025;
+    background-color: #47A025;
     font-size: 22px;
     padding: 2%;
     display: flex;
     margin-top: 50px;
     margin-bottom: 55px;
+    font-weight: 600;
 }
 
 .sobrenosotros h2{
@@ -158,7 +181,9 @@ background-image: url(../Archivos/Imagenes/otrasimg/WhatsApp\ Image\ 2023-03-21\
 .needs-validation{
     font-size: 25px;
     text-align: center;
-    ;
+    color: black;
+    font-weight: 600;
+    background-color: #47A025;
 }
 
 
@@ -166,7 +191,7 @@ background-image: url(../Archivos/Imagenes/otrasimg/WhatsApp\ Image\ 2023-03-21\
     font-size: 20px;
     text-decoration: none;
     font-weight: bold;
-    color: #5E5E5E;
+    color: aliceblue;
     text-align: center;
     justify-content: center;
     display: flex;
@@ -178,6 +203,7 @@ background-image: url(../Archivos/Imagenes/otrasimg/WhatsApp\ Image\ 2023-03-21\
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #47A025;
 }
 
 .carousel-inner{
@@ -214,7 +240,7 @@ footer p{
     font-size: 25px;
 }
 footer a{
-    color: #8CD790;
+    color: #47A025;
     font-size: 30px;
     letter-spacing: 15px;
 }
@@ -269,7 +295,7 @@ footer a{
 @media only screen and (min-width: 1024px){
     .galeria{
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 200px 200px;
+        grid-template-rows: 300px 300px;
         
     }
     
